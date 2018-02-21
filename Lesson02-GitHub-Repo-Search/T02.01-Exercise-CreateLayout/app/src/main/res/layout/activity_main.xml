@@ -32,22 +32,15 @@
 
     >
 
-    <!--TODO (6) Delete this TextView-->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="@+id/activity_main"
-        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
-        app:layout_constraintRight_toRightOf="@+id/activity_main"
-        app:layout_constraintTop_toTopOf="@+id/activity_main" />
+    <!--DONE (6) Delete this TextView-->
+
 
     <!--DONE (7) Add an EditText-->
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/et_search_box"
-        android:text="22sp"
+        android:textSize="22sp"
         android:hint="Please enter a query"
 
 
@@ -58,7 +51,7 @@
     <!--DONE (10) Set the width to match_parent and the height to wrap_content-->
     <!--DONE (11) Provide a hint telling the user to enter a query and then click search-->
 
-    <!--TODO (12) Add a TextView-->
+    <!--DONE (12) Add a TextView-->
     <TextView
         android:id="@+id/tv_url_display"
         android:textSize="22sp"
@@ -88,7 +81,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tv_github_search_results_json"
             android:textSize="18sp"
-            android:"Make a search"
+            android:text ="Make a search"
             />
         <!--DONE (22) Give the TextView an id of @+id/tv_github_search_results_json-->
         <!--DONE (23) Set the text size to 18sp-->
